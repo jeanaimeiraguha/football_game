@@ -1,5 +1,5 @@
 # footballgame
-[You can play a demo of the game here](https://footballsimon.netlify.app)
+
 
 This is one of my projects I'm adding to my personal [portfolio that you can see here.](https://gbsimon.netlify.app)
 
