@@ -46,3 +46,20 @@ function draw() {
 
 // Start the game
 draw();
+document.addEventListener('keydown', (event) => {
+  switch (event.key) {
+      case 'z': // Player 1 up
+          if (player1.y > 0) player1.y -= 5;
+          break;
+      case 's': // Player 1 down
+          if (player1.y < canvas.height - player1.height) player1.y += 5;
+          break;
+      case 'ArrowUp': // Player 2 up
+          if (player2.y > 0) player2.y -= 5;
+          break;
+      case 'ArrowDown': // Player 2 down
+          if (player2.y < canvas.height - player2.height) player2.y += 5;
+          break;
+  }
+});
+
